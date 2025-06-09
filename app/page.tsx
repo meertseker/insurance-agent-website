@@ -433,7 +433,10 @@ export default function Home() {
                   <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
                     <span className="text-white font-bold text-lg">S</span>
                   </div>
-                  <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">Soner Şeker Mavi Sigorta</h1>
+                  <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+                    <span className="hidden sm:inline">Soner Şeker Mavi Sigorta</span>
+                    <span className="sm:hidden">Mavi Sigorta</span>
+                  </h1>
                 </div>
               </div>
             </div>
