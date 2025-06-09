@@ -11,15 +11,15 @@ const translations = {
       contact: 'İletişim'
     },
     hero: {
-      title: 'Sağlığınızı MaviSigorta ile Güvenceye Alın',
-      subtitle: 'TSS ile SGK anlaşmalı özel hastanelerde fark ödemeden tedavi olun. 15 yıllık deneyimimizle yanınızdayız.',
+      title: 'Sağlığınızı Allianz Tamamlayıcı Sağlık Sigortası ile Güvence Altına Alın',
+      subtitle: 'Soner Şeker Mavi Sigorta ile SGK anlaşmalı hastanelerde fark ödemeden tedavi olun. Beylikdüzü\'nde 25 yıllık deneyimimizle yanınızdayız.',
       cta: 'Hemen Teklif Al',
       phone: 'Hemen Ara',
       securityTitle: '%100 Güvenli',
-      securityDescription: 'Lisanslı ve profesyonel sigorta danışmanlığı'
+      securityDescription: 'Lisanslı ve profesyonel sigorta aracılık hizmetleri'
     },
     tss: {
-      title: 'Tamamlayıcı Sağlık Sigortası (TSS)',
+      title: 'Allianz Tamamlayıcı Sağlık Sigortası (TSS)',
       subtitle: 'SGK ile anlaşmalı özel hastanelerde fark ücreti ödemeden sağlık hizmeti alın',
       benefits: [
         'SGK anlaşmalı hastanelerde fark ödemeden tedavi',
@@ -31,13 +31,23 @@ const translations = {
       ],
       priceNote: 'TSS fiyatları yaş, cinsiyet ve şehire göre değişir. Hemen teklif alın!'
     },
+    modular: {
+      title: 'Modüler Sağlık Sigortası',
+      subtitle: 'SGK\'dan bağımsız olarak Türkiye\'deki bütün özel hastanelerde kullanılabilen özel sağlık sigortası',
+      description: 'Kapsamlı özel hastane sigortası ile sağlığınızı güvence altına alın'
+    },
     services: {
       title: 'Hizmetlerimiz',
       subtitle: 'Tüm sigorta ihtiyaçlarınız için kapsamlı çözümler',
       items: [
         {
-          title: 'Tamamlayıcı Sağlık Sigortası',
-          description: 'SGK anlaşmalı hastanelerde fark ödemeden tedavi',
+          title: 'Tamamlayıcı Sağlık Sigortası (TSS)',
+          description: 'Allianz SGK anlaşmalı hastanelerde fark ödemeden tedavi',
+          icon: 'health'
+        },
+        {
+          title: 'Modüler Sağlık Sigortası',
+          description: 'SGK\'dan bağımsız özel hastane sigortası',
           icon: 'health'
         },
         {
@@ -46,45 +56,90 @@ const translations = {
           icon: 'car'
         },
         {
-          title: 'Hayat Sigortası',
-          description: 'Ailenizin geleceğini güvence altına alın',
-          icon: 'life'
+          title: 'Trafik Sigortası',
+          description: 'Zorunlu trafik sigortası hizmetleri',
+          icon: 'car'
         },
         {
-          title: 'Konut Sigortası',
+          title: 'Nakliye Sigortaları',
+          description: 'Kargo ve nakliye güvence sigortaları',
+          icon: 'business'
+        },
+        {
+          title: 'Ortak Alan Sigorta Poliçeleri',
+          description: 'Apartman ve siteler için ortak alan sigortası',
+          icon: 'home'
+        },
+        {
+          title: 'Seyahat Sağlık Sigortası',
+          description: 'Güvenli seyahatler için sağlık sigortası',
+          icon: 'travel'
+        },
+        {
+          title: 'Konut Sigorta Poliçesi',
           description: 'Evinizi doğal afetlere karşı koruyun',
           icon: 'home'
         },
         {
-          title: 'İşyeri Sigortası',
+          title: 'İşyeri Sigorta Poliçesi',
           description: 'İşinizi güvence altına alın',
           icon: 'business'
         },
         {
-          title: 'Seyahat Sigortası',
-          description: 'Güvenli seyahatler için kapsamlı koruma',
+          title: 'DASK Sigorta Poliçesi',
+          description: 'Zorunlu deprem sigortası',
+          icon: 'home'
+        },
+        {
+          title: 'Yeşil Kart Sigorta Poliçesi',
+          description: 'Yurtdışı araç sigortası',
+          icon: 'car'
+        },
+        {
+          title: 'Mavi Dalga Yat Sigorta Poliçesi',
+          description: 'Deniz araçları için özel sigorta',
           icon: 'travel'
+        },
+        {
+          title: 'İnşaat ALL Risk Sigorta Poliçesi',
+          description: 'İnşaat projeleri için kapsamlı koruma',
+          icon: 'business'
+        },
+        {
+          title: 'İnşaat Montaj Sigorta Poliçesi',
+          description: 'Montaj süreçleri için güvence',
+          icon: 'business'
+        },
+        {
+          title: 'AVM Sigorta Poliçesi',
+          description: 'Alışveriş merkezleri için özel sigorta',
+          icon: 'business'
+        },
+        {
+          title: 'Sorumluluk Sigorta Poliçeleri',
+          description: 'Mesleki ve genel sorumluluk sigortası',
+          icon: 'business'
         }
       ]
     },
     about: {
-      title: 'Neden MaviSigorta?',
+      title: 'Neden Soner Şeker Mavi Sigorta?',
       items: [
         {
-          title: '15+ Yıl Deneyim',
-          description: 'Sigorta sektöründe uzun yıllara dayanan deneyim'
+          title: '25+ Yıl Deneyim',
+          description: 'Sigorta sektöründe çeyrek asırlık deneyim ve uzmanlık'
         },
         {
-          title: '24/7 Destek',
-          description: 'Her zaman yanınızda, kesintisiz hizmet'
+          title: 'Allianz Ortaklığı',
+          description: 'Güvenilir Allianz sigorta ürünleri ve hizmetleri'
         },
         {
-          title: 'En İyi Fiyatlar',
-          description: 'Piyasanın en uygun fiyatları ile hizmet'
+          title: 'Kapsamlı Hizmetler',
+          description: '16 farklı sigorta türünde uzman danışmanlık'
         },
         {
-          title: 'Hızlı Çözüm',
-          description: 'Hasar durumlarında hızlı ve etkili çözümler'
+          title: 'Beylikdüzü Merkez',
+          description: 'İstanbul Beylikdüzü\'nde merkez ofis ile hızlı hizmet'
         }
       ]
     },
@@ -92,18 +147,18 @@ const translations = {
       title: 'Müşteri Yorumları',
       items: [
         {
-          name: 'Ayşe K.',
-          text: 'MaviSigorta\'nın TSS sayesinde ameliyat farkı ödemeden tedavi oldum. Çok memnunum.',
+          name: 'Ahmet B.',
+          text: 'Soner Bey\'in Allianz TSS\'i sayesinde ameliyat farkı ödemeden tedavi oldum. 25 yıllık deneyimi gerçekten hissediliyor.',
           rating: 5
         },
         {
-          name: 'Mehmet T.',
-          text: 'Ailem için TSS yaptırdım, hizmet kalitesi gerçekten çok iyi. Tavsiye ederim.',
+          name: 'Fatma K.',
+          text: 'Modüler sağlık sigortası ile özel hastanede sorunsuz tedavi oldum. Mavi Sigorta\'ya teşekkürler.',
           rating: 5
         },
         {
-          name: 'Zeynep A.',
-          text: '24/7 destek hizmeti sayesinde her zaman yardım alabildim. Güvenilir bir şirket.',
+          name: 'Mehmet D.',
+          text: 'Yat sigortası için Mavi Dalga poliçesi aldım. Denizde güvenle seyahat ediyorum. Profesyonel hizmet.',
           rating: 5
         }
       ]
@@ -114,7 +169,7 @@ const translations = {
       phone: 'Telefon',
       email: 'E-posta',
       address: 'Adres',
-      addressText: 'Beşiktaş, İstanbul, Türkiye',
+      addressText: 'Adnan Kahveci Mah. Yavuz Sultan Selim Bulvarı No:116 Perlevista Rezidans A Blok Kat:6 Daire:49 Beylikdüzü/İstanbul',
       form: {
         name: 'Adınız Soyadınız',
         email: 'E-posta Adresiniz',
@@ -125,8 +180,8 @@ const translations = {
     },
     footer: {
       rights: 'Tüm hakları saklıdır.',
-      description: 'İstanbul\'da güvenilir sigorta danışmanlığı hizmeti',
-      mission: 'Müşterilerimizin hayatlarını ve değerlerini korumak için en uygun sigorta poliçelerini sunmak.'
+      description: 'Beylikdüzü\'nde 25 yıllık deneyimle güvenilir sigorta aracılık hizmetleri',
+      mission: 'Müşterilerimizin hayatlarını ve değerlerini korumak için Allianz güvencesi ile en uygun sigorta poliçelerini sunmak.'
     }
   },
   en: {
@@ -137,15 +192,15 @@ const translations = {
       contact: 'Contact'
     },
     hero: {
-      title: 'Secure Your Health with MaviSigorta',
-      subtitle: 'Get treatment in SGK-affiliated private hospitals without extra fees with TSS. We are with you with our 15 years of experience.',
+      title: 'Secure Your Health with Allianz Complementary Health Insurance',
+      subtitle: 'Get treatment in SGK-affiliated private hospitals without extra fees with Soner Şeker Mavi Sigorta. We are with you with our 25 years of experience in Beylikdüzü.',
       cta: 'Get Quote Now',
       phone: 'Call Now',
       securityTitle: '100% Secure',
-      securityDescription: 'Licensed and professional insurance consultancy'
+      securityDescription: 'Licensed and professional insurance brokerage services'
     },
     tss: {
-      title: 'Complementary Health Insurance (TSS)',
+      title: 'Allianz Complementary Health Insurance (TSS)',
       subtitle: 'Receive healthcare services without paying extra fees in SGK-affiliated private hospitals',
       benefits: [
         'Treatment without extra fees in SGK-affiliated hospitals',
@@ -157,13 +212,23 @@ const translations = {
       ],
       priceNote: 'TSS prices vary by age, gender, and city. Get a quote now!'
     },
+    modular: {
+      title: 'Modular Health Insurance',
+      subtitle: 'Private health insurance that can be used in all private hospitals in Turkey, independent of SGK',
+      description: 'Secure your health with comprehensive private hospital insurance'
+    },
     services: {
       title: 'Our Services',
       subtitle: 'Comprehensive solutions for all your insurance needs',
       items: [
         {
-          title: 'Complementary Health Insurance',
-          description: 'Treatment without extra fees in SGK-affiliated hospitals',
+          title: 'Complementary Health Insurance (TSS)',
+          description: 'Allianz SGK-affiliated hospitals treatment without extra fees',
+          icon: 'health'
+        },
+        {
+          title: 'Modular Health Insurance',
+          description: 'SGK-independent private hospital insurance',
           icon: 'health'
         },
         {
@@ -172,45 +237,90 @@ const translations = {
           icon: 'car'
         },
         {
-          title: 'Life Insurance',
-          description: 'Secure your family\'s future',
-          icon: 'life'
+          title: 'Traffic Insurance',
+          description: 'Mandatory traffic insurance services',
+          icon: 'car'
         },
         {
-          title: 'Home Insurance',
+          title: 'Transportation Insurance',
+          description: 'Cargo and transportation security insurance',
+          icon: 'business'
+        },
+        {
+          title: 'Common Area Insurance Policies',
+          description: 'Common area insurance for apartments and sites',
+          icon: 'home'
+        },
+        {
+          title: 'Travel Health Insurance',
+          description: 'Health insurance for safe travels',
+          icon: 'travel'
+        },
+        {
+          title: 'Home Insurance Policy',
           description: 'Protect your home against natural disasters',
           icon: 'home'
         },
         {
-          title: 'Business Insurance',
+          title: 'Business Insurance Policy',
           description: 'Secure your business',
           icon: 'business'
         },
         {
-          title: 'Travel Insurance',
-          description: 'Comprehensive protection for safe travels',
+          title: 'DASK Insurance Policy',
+          description: 'Mandatory earthquake insurance',
+          icon: 'home'
+        },
+        {
+          title: 'Green Card Insurance Policy',
+          description: 'International vehicle insurance',
+          icon: 'car'
+        },
+        {
+          title: 'Mavi Dalga Yacht Insurance Policy',
+          description: 'Special insurance for marine vehicles',
           icon: 'travel'
+        },
+        {
+          title: 'Construction ALL Risk Insurance Policy',
+          description: 'Comprehensive protection for construction projects',
+          icon: 'business'
+        },
+        {
+          title: 'Construction Assembly Insurance Policy',
+          description: 'Security for assembly processes',
+          icon: 'business'
+        },
+        {
+          title: 'Shopping Mall Insurance Policy',
+          description: 'Special insurance for shopping centers',
+          icon: 'business'
+        },
+        {
+          title: 'Liability Insurance Policies',
+          description: 'Professional and general liability insurance',
+          icon: 'business'
         }
       ]
     },
     about: {
-      title: 'Why MaviSigorta?',
+      title: 'Why Soner Şeker Mavi Sigorta?',
       items: [
         {
-          title: '15+ Years Experience',
-          description: 'Long-standing experience in the insurance industry'
+          title: '25+ Years Experience',
+          description: 'Quarter century of experience and expertise in insurance industry'
         },
         {
-          title: '24/7 Support',
-          description: 'Always by your side, uninterrupted service'
+          title: 'Allianz Partnership',
+          description: 'Trusted Allianz insurance products and services'
         },
         {
-          title: 'Best Prices',
-          description: 'Service with the most affordable prices in the market'
+          title: 'Comprehensive Services',
+          description: 'Expert consultancy in 16 different types of insurance'
         },
         {
-          title: 'Quick Solutions',
-          description: 'Fast and effective solutions in case of damage'
+          title: 'Beylikdüzü Center',
+          description: 'Fast service with central office in Istanbul Beylikdüzü'
         }
       ]
     },
@@ -218,18 +328,18 @@ const translations = {
       title: 'Customer Reviews',
       items: [
         {
-          name: 'Ayşe K.',
-          text: 'Thanks to MaviSigorta\'s TSS, I was treated without paying surgery fees. Very satisfied.',
+          name: 'Ahmet B.',
+          text: 'Thanks to Mr. Soner\'s Allianz TSS, I was treated without paying surgery fees. 25 years of experience really shows.',
           rating: 5
         },
         {
-          name: 'Mehmet T.',
-          text: 'I got TSS for my family, the service quality is really good. I recommend it.',
+          name: 'Fatma K.',
+          text: 'I was treated smoothly in private hospital with modular health insurance. Thanks to Mavi Sigorta.',
           rating: 5
         },
         {
-          name: 'Zeynep A.',
-          text: 'Thanks to 24/7 support service, I could always get help. A reliable company.',
+          name: 'Mehmet D.',
+          text: 'I got Mavi Dalga policy for yacht insurance. I travel safely at sea. Professional service.',
           rating: 5
         }
       ]
@@ -240,7 +350,7 @@ const translations = {
       phone: 'Phone',
       email: 'Email',
       address: 'Address',
-      addressText: 'Beşiktaş, Istanbul, Turkey',
+      addressText: 'Adnan Kahveci District Yavuz Sultan Selim Boulevard No:116 Perlevista Residence A Block Floor:6 Apartment:49 Beylikdüzü/Istanbul',
       form: {
         name: 'Your Name',
         email: 'Your Email',
@@ -251,8 +361,8 @@ const translations = {
     },
     footer: {
       rights: 'All rights reserved.',
-      description: 'Trusted insurance consultancy service in Istanbul',
-      mission: 'To provide the most suitable insurance policies to protect our customers\' lives and values.'
+      description: 'Trusted insurance brokerage services with 25 years of experience in Beylikdüzü',
+      mission: 'To provide the most suitable insurance policies with Allianz assurance to protect our customers\' lives and values.'
     }
   }
 };
@@ -321,9 +431,9 @@ export default function Home() {
               <div className="flex-shrink-0">
                 <div className="flex items-center space-x-2">
                   <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold text-lg">M</span>
+                    <span className="text-white font-bold text-lg">S</span>
                   </div>
-                  <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">MaviSigorta</h1>
+                  <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">Soner Şeker Mavi Sigorta</h1>
                 </div>
               </div>
             </div>
@@ -430,7 +540,7 @@ export default function Home() {
                   {t.hero.cta}
                 </button>
                 <a 
-                  href="tel:+905551234567"
+                  href="tel:+905324807617"
                   className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300 text-center shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                   aria-label="MaviSigorta sigorta danışmanını hemen aramak için telefon et"
                 >
@@ -485,6 +595,54 @@ export default function Home() {
             {/* SEO Content */}
             <div className="sr-only">
               Tamamlayıcı sağlık sigortası TSS fiyatları İstanbul'da yaş, cinsiyet ve sağlık durumuna göre değişkenlik gösterir. MaviSigorta olarak en uygun TSS fiyatlarını sunmakta, SGK anlaşmalı hastanelerde fark ödemeden tedavi imkanı sağlamaktayız. Özel hastane TSS sigortası, ambulans hizmeti TSS, yoğun bakım TSS teminatı gibi kapsamlı sağlık sigortası seçenekleri mevcuttur.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Modular Health Insurance Section */}
+      <section className="py-20 bg-gradient-to-r from-green-600 to-teal-700" role="region" aria-labelledby="modular-section">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center text-white space-y-8">
+            <h2 id="modular-section" className="text-4xl md:text-5xl font-bold">{t.modular.title}</h2>
+            <p className="text-xl opacity-90 max-w-3xl mx-auto">{t.modular.subtitle}</p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+              <article className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                <div className="flex items-center space-x-3">
+                  <svg className="w-6 h-6 text-green-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" role="img" aria-label="Onay işareti">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-white font-medium">SGK'dan bağımsız özel hastane sigortası</span>
+                </div>
+              </article>
+              
+              <article className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                <div className="flex items-center space-x-3">
+                  <svg className="w-6 h-6 text-green-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" role="img" aria-label="Onay işareti">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-white font-medium">Türkiye'deki tüm özel hastanelerde geçerli</span>
+                </div>
+              </article>
+              
+              <article className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                <div className="flex items-center space-x-3">
+                  <svg className="w-6 h-6 text-green-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" role="img" aria-label="Onay işareti">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-white font-medium">Kapsamlı sağlık teminatları</span>
+                </div>
+              </article>
+            </div>
+            
+            <article className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 max-w-2xl mx-auto">
+              <p className="text-lg font-semibold text-yellow-300">{t.modular.description}</p>
+            </article>
+            
+            {/* SEO Content */}
+            <div className="sr-only">
+              Modüler sağlık sigortası, SGK'ya bağlı olmayan kişilerin veya SGK'ya ek olarak özel hastane hizmetlerinden yararlanmak isteyenlerin tercih ettiği sigorta türüdür. Türkiye'nin dört bir yanındaki özel hastanelerde geçerli olan bu sigorta türü ile sağlık hizmetlerine daha kolay erişim sağlanır.
             </div>
           </div>
         </div>
@@ -609,12 +767,12 @@ export default function Home() {
                 <div className="flex items-center space-x-4">
                   <div className="w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center shadow-lg">
                     <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.435.74a1 1 0 01.836.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">{t.contact.phone}</h3>
-                    <a href="tel:+905551234567" className="text-blue-600 hover:text-blue-700 font-medium text-lg">+90 555 123 45 67</a>
+                    <a href="tel:+905324807617" className="text-blue-600 hover:text-blue-700 font-medium text-lg">+90 532 480 76 17</a>
                   </div>
                 </div>
                 
@@ -626,7 +784,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">{t.contact.email}</h3>
-                    <a href="mailto:info@mavisigorta.com" className="text-blue-600 hover:text-blue-700 font-medium text-lg">info@mavisigorta.com</a>
+                    <a href="mailto:info@mavisigorta.net" className="text-blue-600 hover:text-blue-700 font-medium text-lg">info@mavisigorta.net</a>
                   </div>
                 </div>
                 
@@ -650,6 +808,7 @@ export default function Home() {
                   <p><span className="font-semibold">Pazartesi - Cuma:</span> 09:00 - 18:00</p>
                   <p><span className="font-semibold">Cumartesi:</span> 09:00 - 15:00</p>
                   <p><span className="font-semibold">Pazar:</span> Kapalı</p>
+                  <p className="text-blue-600 font-semibold mt-4">Acil durumlar için 7/24 ulaşabilirsiniz</p>
                 </div>
               </div>
             </div>
@@ -724,9 +883,9 @@ export default function Home() {
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center space-x-2 mb-6">
                 <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">M</span>
+                  <span className="text-white font-bold text-xl">S</span>
                 </div>
-                <h3 className="text-2xl font-bold text-white">MaviSigorta</h3>
+                <h3 className="text-2xl font-bold text-white">Soner Şeker Mavi Sigorta</h3>
               </div>
               <p className="text-gray-300 leading-relaxed mb-6 max-w-md">{t.footer.description}</p>
               <p className="text-gray-400 text-sm italic">{t.footer.mission}</p>
@@ -745,18 +904,18 @@ export default function Home() {
             <div>
               <h4 className="text-lg font-semibold mb-6">İletişim</h4>
               <div className="space-y-3">
-                <a href="tel:+905551234567" className="flex items-center text-gray-300 hover:text-white transition-colors duration-200">
+                <a href="tel:+905324807617" className="flex items-center text-gray-300 hover:text-white transition-colors duration-200">
                   <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.948.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.948.684l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  +90 555 123 45 67
+                  +90 532 480 76 17
                 </a>
-                <a href="mailto:info@mavisigorta.com" className="flex items-center text-gray-300 hover:text-white transition-colors duration-200">
+                <a href="mailto:info@mavisigorta.net" className="flex items-center text-gray-300 hover:text-white transition-colors duration-200">
                   <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                   </svg>
-                  info@mavisigorta.com
+                  info@mavisigorta.net
                 </a>
                 <div className="flex items-start text-gray-300">
                   <svg className="w-4 h-4 mr-2 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -770,7 +929,7 @@ export default function Home() {
           
           <div className="border-t border-gray-800 mt-12 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
-              <p className="text-gray-400 text-sm mb-4 md:mb-0">© 2025 MaviSigorta. {t.footer.rights}</p>
+              <p className="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Soner Şeker Mavi Sigorta. {t.footer.rights}</p>
               <div className="flex space-x-6">
                 <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Gizlilik Politikası</a>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Kullanım Şartları</a>

@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MaviSigorta - Tamamlayıcı Sağlık Sigortası TSS | Kasko Hayat Konut Sigortası İstanbul",
-  description: "MaviSigorta ile TSS tamamlayıcı sağlık sigortası, kasko, hayat, konut, işyeri sigortası için en uygun fiyatlarla teklif alın. İstanbul Beşiktaş'ta 15 yıllık deneyim. Online sigorta, anında teklif, SGK anlaşmalı hastaneler, fark ödemeden tedavi. Sağlık sigortası, otomobil sigortası, ev sigortası, ticari sigorta, seyahat sigortası.",
-  keywords: "tamamlayıcı sağlık sigortası, TSS, kasko sigortası, hayat sigortası, konut sigortası, sağlık sigortası, otomobil sigortası, ev sigortası, işyeri sigortası, ticari sigorta, seyahat sigortası, sigorta istanbul, sigorta beşiktaş, sigorta fiyatları, sigorta teklifi, online sigorta, dijital sigorta, sigorta acentesi, sigorta şirketi, sigorta danışmanı, en ucuz sigorta, uygun fiyat sigorta, anında sigorta teklifi, SGK anlaşmalı hastane, özel sağlık sigortası, bireysel emeklilik, BES, ferdi kaza sigortası, dask, zorunlu deprem sigortası, trafik sigortası, mtpl, sigorta poliçesi, sigorta primiumi, sigorta ödemesi, hasar dosyası, sigorta claim, sigorta karşılaştırma, sigorta hesaplama, mavisigorta, mavi sigorta, istanbul sigorta firması, güvenilir sigorta, lisanslı sigorta acentesi, 7/24 sigorta hizmeti, hızlı sigorta çözümü, profesyonel sigorta danışmanlığı, sigorta uzmanı, en iyi sigorta, kaliteli sigorta hizmeti, müşteri memnuniyeti sigorta, sigorta yorumları, sigorta deneyimleri, sigorta tavsiyeleri, sigorta rehberi, sigorta bilgileri, sigorta süreçleri, sigorta avantajları, sigorta faydaları, sigorta kapsamı, sigorta teminatları, sigorta koşulları, sigorta sözleşmesi, sigorta poliçe şartları",
-  authors: [{ name: "MaviSigorta" }],
-  creator: "MaviSigorta Sigorta Acentesi",
-  publisher: "MaviSigorta",
+  title: "Soner Şeker Mavi Sigorta - Allianz Tamamlayıcı Sağlık Sigortası TSS | Modüler Sağlık Sigortası Beylikdüzü İstanbul",
+  description: "Soner Şeker Mavi Sigorta Aracılık Hizmetleri ile Allianz TSS tamamlayıcı sağlık sigortası, modüler sağlık sigortası, kasko, trafik, nakliye, DASK sigortası için en uygun fiyatlarla teklif alın. Beylikdüzü İstanbul'da 25 yıllık deneyim. SGK anlaşmalı hastanelerde fark ödemeden tedavi, özel hastane modüler sağlık sigortası, yat sigortası, inşaat ALL risk sigortası.",
+  keywords: "Soner Şeker, Mavi Sigorta, Allianz tamamlayıcı sağlık sigortası, TSS, modüler sağlık sigortası, kasko sigortası, trafik sigortası, nakliye sigortaları, ortak alan sigortası, seyahat sağlık sigortası, konut sigortası, işyeri sigortası, DASK sigortası, yeşil kart sigortası, Mavi Dalga yat sigortası, inşaat ALL risk sigortası, inşaat montaj sigortası, AVM sigortası, sorumluluk sigortası, Beylikdüzü sigorta, İstanbul sigorta, sigorta acentesi, sigorta aracılık hizmetleri, en ucuz sigorta, uygun fiyat sigorta, anında sigorta teklifi, SGK anlaşmalı hastane, özel hastane sigortası, Allianz sigorta, 25 yıl deneyim sigorta, profesyonel sigorta danışmanlığı, sigorta uzmanı, güvenilir sigorta, lisanslı sigorta acentesi, online sigorta, dijital sigorta, sigorta karşılaştırma, sigorta hesaplama, Perlevista Rezidans sigorta, Adnan Kahveci mahallesi sigorta",
+  authors: [{ name: "Soner Şeker Mavi Sigorta Aracılık Hizmetleri" }],
+  creator: "Soner Şeker Mavi Sigorta Aracılık Hizmetleri",
+  publisher: "Mavi Sigorta",
   viewport: "width=device-width, initial-scale=1",
   robots: {
     index: true,
@@ -24,55 +24,55 @@ export const metadata: Metadata = {
     type: "website",
     locale: "tr_TR",
     alternateLocale: ["en_US"],
-    title: "MaviSigorta - TSS Tamamlayıcı Sağlık Sigortası ve Tüm Sigorta Türleri İstanbul",
-    description: "İstanbul'da güvenilir sigorta danışmanlığı. TSS, kasko, hayat, konut sigortası için en uygun fiyatlarla hizmet. 15 yıllık deneyim, 7/24 destek, anında teklif.",
-    url: "https://mavisigorta.com",
-    siteName: "MaviSigorta",
+    title: "Soner Şeker Mavi Sigorta - Allianz TSS ve Modüler Sağlık Sigortası Beylikdüzü İstanbul",
+    description: "25 yıllık deneyimle Allianz TSS, modüler sağlık sigortası, kasko, DASK, yat sigortası için en uygun fiyatlarla hizmet. SGK anlaşmalı ve özel hastanelerde kapsamlı koruma.",
+    url: "https://mavisigorta.net",
+    siteName: "Soner Şeker Mavi Sigorta",
     images: [
       {
-        url: "https://mavisigorta.com/og-image.jpg",
+        url: "https://mavisigorta.net/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "MaviSigorta - İstanbul Sigorta Acentesi",
+        alt: "Soner Şeker Mavi Sigorta - Beylikdüzü İstanbul Sigorta Acentesi",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "MaviSigorta - TSS Tamamlayıcı Sağlık Sigortası İstanbul",
-    description: "TSS, kasko, hayat, konut sigortası için en uygun fiyatlarla teklif alın. 15 yıllık deneyim.",
-    images: ["https://mavisigorta.com/twitter-image.jpg"],
+    title: "Soner Şeker Mavi Sigorta - Allianz TSS Modüler Sağlık Sigortası",
+    description: "25 yıllık deneyimle TSS, modüler sağlık sigortası, kasko, yat sigortası için en uygun fiyatlarla teklif alın.",
+    images: ["https://mavisigorta.net/twitter-image.jpg"],
     creator: "@mavisigorta",
     site: "@mavisigorta",
   },
   alternates: {
-    canonical: "https://mavisigorta.com",
+    canonical: "https://mavisigorta.net",
     languages: {
-      'tr-TR': 'https://mavisigorta.com',
-      'en-US': 'https://mavisigorta.com/en',
+      'tr-TR': 'https://mavisigorta.net',
+      'en-US': 'https://mavisigorta.net/en',
     },
   },
   category: "Business",
-  classification: "Sigorta Acentesi",
+  classification: "Sigorta Aracılık Hizmetleri",
   other: {
     'geo.region': 'TR-34',
-    'geo.placename': 'İstanbul',
-    'geo.position': '41.0082;28.9784',
-    'ICBM': '41.0082, 28.9784',
-    'DC.title': 'MaviSigorta - İstanbul Sigorta Acentesi',
-    'DC.creator': 'MaviSigorta',
-    'DC.subject': 'Sigorta, TSS, Kasko, Hayat Sigortası',
-    'DC.description': 'İstanbul\'da güvenilir sigorta danışmanlığı hizmeti',
-    'DC.publisher': 'MaviSigorta',
-    'DC.contributor': 'MaviSigorta Uzman Ekip',
+    'geo.placename': 'Beylikdüzü, İstanbul',
+    'geo.position': '41.0082;28.6792',
+    'ICBM': '41.0082, 28.6792',
+    'DC.title': 'Soner Şeker Mavi Sigorta - Beylikdüzü İstanbul Sigorta Acentesi',
+    'DC.creator': 'Soner Şeker',
+    'DC.subject': 'Sigorta, TSS, Modüler Sağlık, Kasko, Yat Sigortası, DASK',
+    'DC.description': 'Beylikdüzü\'nde 25 yıllık deneyimle sigorta aracılık hizmetleri',
+    'DC.publisher': 'Mavi Sigorta Aracılık Hizmetleri',
+    'DC.contributor': 'Soner Şeker Mavi Sigorta Uzman Ekip',
     'DC.date': '2025',
     'DC.type': 'Service',
     'DC.format': 'text/html',
-    'DC.identifier': 'https://mavisigorta.com',
-    'DC.source': 'https://mavisigorta.com',
+    'DC.identifier': 'https://mavisigorta.net',
+    'DC.source': 'https://mavisigorta.net',
     'DC.language': 'tr',
-    'DC.coverage': 'İstanbul, Türkiye',
-    'DC.rights': 'Copyright 2025 MaviSigorta',
+    'DC.coverage': 'Beylikdüzü, İstanbul, Türkiye',
+    'DC.rights': 'Copyright 2025 Soner Şeker Mavi Sigorta',
   },
 };
 
@@ -86,30 +86,40 @@ export default function RootLayout({
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://mavisigorta.com/#organization",
-        "name": "MaviSigorta",
-        "alternateName": ["Mavi Sigorta", "MaviSigorta Acentesi"],
-        "url": "https://mavisigorta.com",
+        "@id": "https://mavisigorta.net/#organization",
+        "name": "Soner Şeker Mavi Sigorta Aracılık Hizmetleri",
+        "alternateName": ["Mavi Sigorta", "Soner Şeker Sigorta", "Mavi Sigorta Aracılık"],
+        "url": "https://mavisigorta.net",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://mavisigorta.com/logo.png",
+          "url": "https://mavisigorta.net/logo.png",
           "width": 200,
           "height": 200
         },
-        "description": "İstanbul'da güvenilir sigorta danışmanlığı hizmeti. TSS, kasko, hayat, konut sigortası.",
-        "foundingDate": "2010",
-        "email": "info@mavisigorta.com",
-        "telephone": "+905551234567",
+        "description": "Beylikdüzü'nde 25 yıllık deneyimle Allianz TSS, modüler sağlık sigortası ve tüm sigorta türleri.",
+        "foundingDate": "2000",
+        "founder": {
+          "@type": "Person",
+          "name": "Soner Şeker"
+        },
+        "email": "info@mavisigorta.net",
+        "telephone": "+905324807617",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Beşiktaş",
-          "addressLocality": "İstanbul",
+          "streetAddress": "Adnan Kahveci Mahallesi Yavuz Sultan Selim Bulvarı No:116 Perlevista Rezidans A Blok Kat:6 Daire:49",
+          "addressLocality": "Beylikdüzü",
+          "addressRegion": "İstanbul",
+          "postalCode": "34520",
           "addressCountry": "TR"
         },
         "geo": {
           "@type": "GeoCoordinates",
           "latitude": 41.0082,
-          "longitude": 28.9784
+          "longitude": 28.6792
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "İstanbul, Türkiye"
         },
         "sameAs": [
           "https://www.facebook.com/mavisigorta",
@@ -118,7 +128,7 @@ export default function RootLayout({
         ],
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "+905551234567",
+          "telephone": "+905324807617",
           "contactType": "customer service",
           "availableLanguage": ["Turkish", "English"],
           "areaServed": "TR"
@@ -126,39 +136,41 @@ export default function RootLayout({
       },
       {
         "@type": "WebSite",
-        "@id": "https://mavisigorta.com/#website",
-        "url": "https://mavisigorta.com",
-        "name": "MaviSigorta",
-        "description": "İstanbul sigorta acentesi. TSS, kasko, hayat, konut sigortası hizmetleri.",
+        "@id": "https://mavisigorta.net/#website",
+        "url": "https://mavisigorta.net",
+        "name": "Soner Şeker Mavi Sigorta",
+        "description": "Beylikdüzü sigorta acentesi. Allianz TSS, modüler sağlık, kasko, yat sigortası hizmetleri.",
         "publisher": {
-          "@id": "https://mavisigorta.com/#organization"
+          "@id": "https://mavisigorta.net/#organization"
         },
         "inLanguage": "tr-TR",
         "potentialAction": {
           "@type": "SearchAction",
-          "target": "https://mavisigorta.com/search?q={search_term_string}",
+          "target": "https://mavisigorta.net/search?q={search_term_string}",
           "query-input": "required name=search_term_string"
         }
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://mavisigorta.com/#localbusiness",
-        "name": "MaviSigorta",
-        "image": "https://mavisigorta.com/business-image.jpg",
-        "telephone": "+905551234567",
-        "email": "info@mavisigorta.com",
+        "@id": "https://mavisigorta.net/#localbusiness",
+        "name": "Soner Şeker Mavi Sigorta Aracılık Hizmetleri",
+        "image": "https://mavisigorta.net/business-image.jpg",
+        "telephone": "+905324807617",
+        "email": "info@mavisigorta.net",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Beşiktaş",
-          "addressLocality": "İstanbul",
+          "streetAddress": "Adnan Kahveci Mahallesi Yavuz Sultan Selim Bulvarı No:116 Perlevista Rezidans A Blok Kat:6 Daire:49",
+          "addressLocality": "Beylikdüzü",
+          "addressRegion": "İstanbul",
+          "postalCode": "34520",
           "addressCountry": "TR"
         },
         "geo": {
           "@type": "GeoCoordinates",
           "latitude": 41.0082,
-          "longitude": 28.9784
+          "longitude": 28.6792
         },
-        "url": "https://mavisigorta.com",
+        "url": "https://mavisigorta.net",
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
@@ -174,7 +186,7 @@ export default function RootLayout({
           }
         ],
         "priceRange": "$$",
-        "servesCuisine": "Insurance Services",
+        "paymentAccepted": "Cash, Credit Card, Bank Transfer",
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": "Sigorta Hizmetleri",
@@ -183,7 +195,7 @@ export default function RootLayout({
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Tamamlayıcı Sağlık Sigortası (TSS)",
+                "name": "Allianz Tamamlayıcı Sağlık Sigortası (TSS)",
                 "description": "SGK anlaşmalı hastanelerde fark ödemeden tedavi"
               }
             },
@@ -191,16 +203,24 @@ export default function RootLayout({
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Kasko Sigortası",
-                "description": "Otomobil sigortası hizmetleri"
+                "name": "Modüler Sağlık Sigortası",
+                "description": "SGK'dan bağımsız özel hastane sigortası"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Hayat Sigortası",
-                "description": "Bireysel hayat sigortası poliçeleri"
+                "name": "Mavi Dalga Yat Sigortası",
+                "description": "Denizcilik sigortası hizmetleri"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "DASK Sigortası",
+                "description": "Zorunlu deprem sigortası"
               }
             }
           ]
@@ -208,13 +228,13 @@ export default function RootLayout({
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://mavisigorta.com/#breadcrumb",
+        "@id": "https://mavisigorta.net/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Ana Sayfa",
-            "item": "https://mavisigorta.com"
+            "item": "https://mavisigorta.net"
           }
         ]
       },
@@ -222,9 +242,13 @@ export default function RootLayout({
         "@type": "Service",
         "name": "Tamamlayıcı Sağlık Sigortası",
         "provider": {
-          "@id": "https://mavisigorta.com/#organization"
+          "@id": "https://mavisigorta.net/#organization"
         },
         "areaServed": "İstanbul",
+        "brand": {
+          "@type": "Brand",
+          "name": "Allianz"
+        },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": "TSS Paketleri",
@@ -257,42 +281,42 @@ export default function RootLayout({
         <meta name="msapplication-tap-highlight" content="no" />
         
         {/* SEO Meta Tags */}
-        <meta name="subject" content="Sigorta Hizmetleri" />
-        <meta name="copyright" content="MaviSigorta" />
+        <meta name="subject" content="Sigorta Aracılık Hizmetleri" />
+        <meta name="copyright" content="Soner Şeker Mavi Sigorta" />
         <meta name="language" content="Turkish" />
-        <meta name="revised" content="Sunday, January 1st, 2025, 5:15 pm" />
-        <meta name="abstract" content="İstanbul'da güvenilir sigorta danışmanlığı" />
-        <meta name="topic" content="Sigorta, TSS, Kasko, Hayat Sigortası" />
-        <meta name="summary" content="MaviSigorta ile tüm sigorta ihtiyaçlarınız için çözüm" />
-        <meta name="owner" content="MaviSigorta" />
-        <meta name="url" content="https://mavisigorta.com" />
-        <meta name="identifier-URL" content="https://mavisigorta.com" />
+        <meta name="revised" content="Sunday, January 9th, 2025, 5:15 pm" />
+        <meta name="abstract" content="Beylikdüzü'nde 25 yıllık deneyimle sigorta aracılık hizmetleri" />
+        <meta name="topic" content="Sigorta, TSS, Modüler Sağlık, Kasko, Yat Sigortası, DASK" />
+        <meta name="summary" content="Soner Şeker Mavi Sigorta ile tüm sigorta ihtiyaçlarınız için çözüm" />
+        <meta name="owner" content="Soner Şeker" />
+        <meta name="url" content="https://mavisigorta.net" />
+        <meta name="identifier-URL" content="https://mavisigorta.net" />
         <meta name="directory" content="submission" />
-        <meta name="category" content="Business, Insurance, Health, Finance" />
+        <meta name="category" content="Business, Insurance, Health, Finance, Maritime" />
         <meta name="coverage" content="Worldwide" />
         <meta name="distribution" content="Global" />
         <meta name="rating" content="General" />
         <meta name="revisit-after" content="1 days" />
-        <meta name="subtitle" content="Güvenilir Sigorta Partneri" />
+        <meta name="subtitle" content="25 Yıllık Deneyimle Güvenilir Sigorta Partneri" />
         <meta name="target" content="all" />
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
-        <meta name="og:email" content="info@mavisigorta.com" />
-        <meta name="og:phone_number" content="+905551234567" />
-        <meta name="og:fax_number" content="+905551234567" />
+        <meta name="og:email" content="info@mavisigorta.net" />
+        <meta name="og:phone_number" content="+905324807617" />
+        <meta name="og:fax_number" content="+905324807617" />
         <meta name="og:latitude" content="41.0082" />
-        <meta name="og:longitude" content="28.9784" />
-        <meta name="og:street-address" content="Beşiktaş" />
-        <meta name="og:locality" content="İstanbul" />
+        <meta name="og:longitude" content="28.6792" />
+        <meta name="og:street-address" content="Adnan Kahveci Mahallesi Yavuz Sultan Selim Bulvarı No:116" />
+        <meta name="og:locality" content="Beylikdüzü" />
         <meta name="og:region" content="İstanbul" />
-        <meta name="og:postal-code" content="34000" />
+        <meta name="og:postal-code" content="34520" />
         <meta name="og:country-name" content="Turkey" />
         
         {/* Additional SEO */}
-        <link rel="canonical" href="https://mavisigorta.com" />
-        <link rel="alternate" hrefLang="tr-tr" href="https://mavisigorta.com" />
-        <link rel="alternate" hrefLang="en-us" href="https://mavisigorta.com/en" />
-        <link rel="alternate" hrefLang="x-default" href="https://mavisigorta.com" />
+        <link rel="canonical" href="https://mavisigorta.net" />
+        <link rel="alternate" hrefLang="tr-tr" href="https://mavisigorta.net" />
+        <link rel="alternate" hrefLang="en-us" href="https://mavisigorta.net/en" />
+        <link rel="alternate" hrefLang="x-default" href="https://mavisigorta.net" />
         
         {/* Structured Data */}
         <script
@@ -336,18 +360,26 @@ export default function RootLayout({
                 },
                 {
                   "@type": "Question",
-                  "name": "Kasko sigortası zorunlu mu?",
+                  "name": "Modüler sağlık sigortası nedir?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kasko sigortası zorunlu değildir ancak aracınızı kapsamlı şekilde korumak için önerilir."
+                    "text": "Modüler sağlık sigortası, SGK'dan bağımsız olarak Türkiye'deki bütün özel hastanelerde kullanılabilen özel sağlık sigortası poliçesidir."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Sigorta fiyatları nasıl hesaplanır?",
+                  "name": "Mavi Dalga yat sigortası nedir?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Sigorta fiyatları yaş, cinsiyet, meslek, şehir ve seçilen teminatlar gibi faktörlere göre hesaplanır."
+                    "text": "Mavi Dalga yat sigortası, deniz araçları için özel olarak tasarlanmış kapsamlı sigorta poliçesidir."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "DASK sigortası zorunlu mu?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Evet, DASK (Doğal Afet Sigortaları Kurumu) sigortası Türkiye'de zorunlu deprem sigortasıdır."
                   }
                 }
               ]

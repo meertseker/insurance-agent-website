@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Main sitemap
-Sitemap: https://mavisigorta.com/sitemap.xml
+Sitemap: https://mavisigorta.net/sitemap.xml
 
 # Allow all major search engines
 User-agent: Googlebot
@@ -38,12 +38,20 @@ Disallow: /login/
 Disallow: /private/
 
 # Allow important insurance pages
-Allow: /tss-tamamlayici-saglik-sigortasi/
+Allow: /allianz-tss-tamamlayici-saglik-sigortasi/
+Allow: /moduler-saglik-sigortasi/
 Allow: /kasko-sigortasi/
-Allow: /hayat-sigortasi/
+Allow: /trafik-sigortasi/
+Allow: /nakliye-sigortasi/
 Allow: /konut-sigortasi/
 Allow: /isyeri-sigortasi/
-Allow: /seyahat-sigortasi/
+Allow: /dask-sigortasi/
+Allow: /yesil-kart-sigortasi/
+Allow: /mavi-dalga-yat-sigortasi/
+Allow: /insaat-all-risk-sigortasi/
+Allow: /avm-sigortasi/
+Allow: /sorumluluk-sigortasi/
+Allow: /seyahat-saglik-sigortasi/
 Allow: /hakkimizda/
 Allow: /iletisim/
 Allow: /sigorta-fiyatlari/
@@ -57,5 +65,5 @@ Allow: /sitemap.xml
 Allow: /robots.txt
 
 # Additional sitemaps if needed
-# Sitemap: https://mavisigorta.com/sitemap-products.xml
-# Sitemap: https://mavisigorta.com/sitemap-blog.xml 
+# Sitemap: https://mavisigorta.net/sitemap-products.xml
+# Sitemap: https://mavisigorta.net/sitemap-blog.xml 

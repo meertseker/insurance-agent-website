@@ -5,91 +5,147 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         
   <url>
-    <loc>https://mavisigorta.com/</loc>
+    <loc>https://mavisigorta.net/</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>https://mavisigorta.com/tss-tamamlayici-saglik-sigortasi</loc>
+    <loc>https://mavisigorta.net/allianz-tss-tamamlayici-saglik-sigortasi</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://mavisigorta.com/kasko-sigortasi</loc>
+    <loc>https://mavisigorta.net/moduler-saglik-sigortasi</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://mavisigorta.net/kasko-sigortasi</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://mavisigorta.com/hayat-sigortasi</loc>
+    <loc>https://mavisigorta.net/trafik-sigortasi</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://mavisigorta.com/konut-sigortasi</loc>
-    <lastmod>2025-01-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://mavisigorta.com/isyeri-sigortasi</loc>
+    <loc>https://mavisigorta.net/nakliye-sigortasi</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://mavisigorta.com/seyahat-sigortasi</loc>
+    <loc>https://mavisigorta.net/konut-sigortasi</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://mavisigorta.net/isyeri-sigortasi</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://mavisigorta.com/hakkimizda</loc>
+    <loc>https://mavisigorta.net/dask-sigortasi</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://mavisigorta.net/yesil-kart-sigortasi</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://mavisigorta.net/mavi-dalga-yat-sigortasi</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://mavisigorta.net/insaat-all-risk-sigortasi</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://mavisigorta.net/avm-sigortasi</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://mavisigorta.net/sorumluluk-sigortasi</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://mavisigorta.net/seyahat-saglik-sigortasi</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://mavisigorta.net/hakkimizda</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://mavisigorta.com/iletisim</loc>
+    <loc>https://mavisigorta.net/iletisim</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://mavisigorta.com/sigorta-fiyatlari</loc>
+    <loc>https://mavisigorta.net/sigorta-fiyatlari</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://mavisigorta.com/online-sigorta-teklifi</loc>
+    <loc>https://mavisigorta.net/online-sigorta-teklifi</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://mavisigorta.com/sigorta-sss</loc>
+    <loc>https://mavisigorta.net/sigorta-sss</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://mavisigorta.com/en</loc>
+    <loc>https://mavisigorta.net/en</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
