@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci
+        - npm ci --prefer-offline --no-audit
     build:
       commands:
         - npm run build
@@ -14,4 +14,11 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
-      - .next/cache/**/* 
+      - .next/cache/**/*
+  customHeaders:
+    - pattern: '**/*'
+      headers:
+        - key: 'X-Frame-Options'
+          value: 'DENY'
+        - key: 'X-Content-Type-Options'
+          value: 'nosniff' 
