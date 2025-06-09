@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SigortaPlus - İstanbul Sigorta Danışmanı | Insurance Advisor Istanbul",
+  title: "MaviSigorta - İstanbul Sigorta Danışmanı | Insurance Advisor Istanbul",
   description: "İstanbul'da güvenilir sigorta danışmanlığı hizmeti. Kasko, hayat, sağlık, konut sigortası ve daha fazlası için uzman danışmanlık. Trusted insurance consultancy service in Istanbul.",
   keywords: "sigorta, insurance, İstanbul, Istanbul, kasko, hayat sigortası, sağlık sigortası, konut sigortası, sigorta danışmanı, insurance advisor",
-  authors: [{ name: "SigortaPlus" }],
+  authors: [{ name: "MaviSigorta" }],
   viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
   openGraph: {
-    title: "SigortaPlus - İstanbul Sigorta Danışmanı",
+    title: "MaviSigorta - İstanbul Sigorta Danışmanı",
     description: "İstanbul'da güvenilir sigorta danışmanlığı hizmeti. 15 yıllık deneyimimizle yanınızdayız.",
     type: "website",
     locale: "tr_TR",
