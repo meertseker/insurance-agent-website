@@ -405,7 +405,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section id="home" className="pt-16 bg-gradient-to-br from-blue-50 via-indigo-50 to-cyan-50 relative overflow-hidden">
-        <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+        <div className="absolute inset-0 bg-grid-pattern opacity-5" aria-hidden="true"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
@@ -416,17 +416,23 @@ export default function Home() {
                 <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
                   {t.hero.subtitle}
                 </p>
+                {/* SEO-friendly hidden text for search engines */}
+                <div className="sr-only">
+                  MaviSigorta İstanbul Beşiktaş merkezli sigorta acentesi olarak TSS tamamlayıcı sağlık sigortası, kasko sigortası, hayat sigortası, konut sigortası, işyeri sigortası ve seyahat sigortası alanlarında 15 yıldır hizmet vermektedir. SGK anlaşmalı hastanelerde fark ödemeden tedavi imkanı, 7/24 müşteri hizmetleri, anında sigorta teklifi ve uygun fiyat garantisi ile sigorta ihtiyaçlarınıza çözüm sunuyoruz.
+                </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button 
                   onClick={() => scrollToSection('contact')}
                   className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                  aria-label="TSS ve diğer sigorta türleri için ücretsiz teklif almak üzere iletişim formuna git"
                 >
                   {t.hero.cta}
                 </button>
                 <a 
                   href="tel:+905551234567"
                   className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300 text-center shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                  aria-label="MaviSigorta sigorta danışmanını hemen aramak için telefon et"
                 >
                   {t.hero.phone}
                 </a>
@@ -435,13 +441,14 @@ export default function Home() {
             <div className="relative">
               <div className="bg-white rounded-3xl shadow-2xl p-8 border border-gray-100 backdrop-blur-sm">
                 <div className="text-center space-y-6">
-                  <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto shadow-lg">
-                    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto shadow-lg" aria-label="Güvenlik ikonu">
+                    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" role="img" aria-labelledby="security-icon">
+                      <title id="security-icon">Güvenlik ve koruma simgesi</title>
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-3">{t.hero.securityTitle}</h3>
+                    <h2 className="text-2xl font-bold text-gray-900 mb-3">{t.hero.securityTitle}</h2>
                     <p className="text-gray-600 text-lg">{t.hero.securityDescription}</p>
                   </div>
                 </div>
@@ -452,43 +459,48 @@ export default function Home() {
       </section>
 
       {/* TSS Highlight Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-800">
+      <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-800" role="region" aria-labelledby="tss-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-white space-y-8">
-            <h2 className="text-4xl md:text-5xl font-bold">{t.tss.title}</h2>
+            <h2 id="tss-section" className="text-4xl md:text-5xl font-bold">{t.tss.title}</h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">{t.tss.subtitle}</p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
               {t.tss.benefits.map((benefit, index) => (
-                <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                <article key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
                   <div className="flex items-center space-x-3">
-                    <svg className="w-6 h-6 text-green-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-green-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" role="img" aria-label="Onay işareti">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span className="text-white font-medium">{benefit}</span>
                   </div>
-                </div>
+                </article>
               ))}
             </div>
             
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 max-w-2xl mx-auto">
+            <article className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 max-w-2xl mx-auto">
               <p className="text-lg font-semibold text-yellow-300">{t.tss.priceNote}</p>
+            </article>
+            
+            {/* SEO Content */}
+            <div className="sr-only">
+              Tamamlayıcı sağlık sigortası TSS fiyatları İstanbul'da yaş, cinsiyet ve sağlık durumuna göre değişkenlik gösterir. MaviSigorta olarak en uygun TSS fiyatlarını sunmakta, SGK anlaşmalı hastanelerde fark ödemeden tedavi imkanı sağlamaktayız. Özel hastane TSS sigortası, ambulans hizmeti TSS, yoğun bakım TSS teminatı gibi kapsamlı sağlık sigortası seçenekleri mevcuttur.
             </div>
           </div>
         </div>
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-white">
+      <section id="services" className="py-20 bg-white" role="region" aria-labelledby="services-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16 space-y-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">{t.services.title}</h2>
+          <header className="text-center mb-16 space-y-4">
+            <h2 id="services-section" className="text-4xl md:text-5xl font-bold text-gray-900">{t.services.title}</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t.services.subtitle}</p>
-          </div>
+          </header>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {t.services.items.map((service, index) => (
-              <div key={index} className={`group rounded-2xl p-8 transition-all duration-300 hover:shadow-2xl border-2 ${
+              <article key={index} className={`group rounded-2xl p-8 transition-all duration-300 hover:shadow-2xl border-2 ${
                 index === 0 
                   ? 'bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200 shadow-lg' 
                   : 'bg-white hover:bg-gray-50 border-gray-100 shadow-lg hover:border-blue-200'
@@ -496,7 +508,7 @@ export default function Home() {
                 <div className="space-y-6">
                   <div className={`w-16 h-16 rounded-xl flex items-center justify-center ${
                     index === 0 ? 'bg-blue-600' : 'bg-blue-100 group-hover:bg-blue-600'
-                  } transition-all duration-300`}>
+                  } transition-all duration-300`} role="img" aria-label={`${service.title} simgesi`}>
                     <div className={index === 0 ? 'text-white' : 'text-blue-600 group-hover:text-white'}>
                       {getServiceIcon(service.icon)}
                     </div>
@@ -509,13 +521,20 @@ export default function Home() {
                     <button 
                       onClick={() => scrollToSection('contact')}
                       className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 shadow-md hover:shadow-lg"
+                      aria-label="TSS tamamlayıcı sağlık sigortası için teklif almak üzere iletişime geç"
                     >
-                      Teklif Al
+                      {language === 'tr' ? 'TSS Teklif Al' : 'Get TSS Quote'}
                     </button>
                   )}
                 </div>
-              </div>
+              </article>
             ))}
+          </div>
+          
+          {/* Additional SEO Content */}
+          <div className="sr-only">
+            <h3>İstanbul Sigorta Hizmetleri Detayları</h3>
+            <p>MaviSigorta Beşiktaş merkezli sigorta acentesi olarak kasko sigortası fiyatları, hayat sigortası primleri, konut sigortası teminatları, işyeri sigortası kapsamı ve seyahat sigortası poliçeleri konusunda uzman danışmanlık hizmeti vermektedir. Online sigorta teklifi, dijital sigorta poliçesi ve anında sigorta onayı ile modern sigorta çözümleri sunmaktayız.</p>
           </div>
         </div>
       </section>

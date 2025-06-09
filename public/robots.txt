@@ -1,0 +1,61 @@
+User-agent: *
+Allow: /
+
+# Main sitemap
+Sitemap: https://mavisigorta.com/sitemap.xml
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# Block admin areas if they exist
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /private/
+
+# Allow important insurance pages
+Allow: /tss-tamamlayici-saglik-sigortasi/
+Allow: /kasko-sigortasi/
+Allow: /hayat-sigortasi/
+Allow: /konut-sigortasi/
+Allow: /isyeri-sigortasi/
+Allow: /seyahat-sigortasi/
+Allow: /hakkimizda/
+Allow: /iletisim/
+Allow: /sigorta-fiyatlari/
+Allow: /online-sigorta-teklifi/
+Allow: /sigorta-sss/
+Allow: /en/
+
+# Important files
+Allow: /favicon.ico
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# Additional sitemaps if needed
+# Sitemap: https://mavisigorta.com/sitemap-products.xml
+# Sitemap: https://mavisigorta.com/sitemap-blog.xml 
